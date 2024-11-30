@@ -1,0 +1,50 @@
+readme_file for frequency_of_words:
+
+1st commit:
+==========
+      -> have initialized the given string 
+      -> split the words in the given string and its become list
+      -> sorting the list alphanumerically.
+      -> initialized empty dictionary
+      -> done the loop for str_split list
+      -> each word verifies dictionary key if key is not there it assigns the value 1
+      -> if already key is there in the dictionary the value incremented by one.
+      -> dictionary converted as list
+      -> for each element in the list it printed out.
+
+issue on the first commit
+=========================
+dictionary does not have order.
+done sorting initially. but added those into the dictionary in the for loop it may print
+without sorting..
+
+so done 2nd commit
+====================
+in the 2nd commit removed sort the list at initial
+after converted the dictionary into the list, done the sorting by using sorted method.
+so now it is print the elements with sorting order.
+
+3rd commit
+==========
+in the 3rd commit created two different files
+one is main function other one is only functions files.
+
+here created 2 functions:
+     1. frequency_of_words
+     2. sorting order
+
+frequency_of_words take the input from main function which is in other file and calculate the how many each word is there in the string
+it results put into the dictionary.
+sorting order take the input from the frequency_of_words i.e dictionary. it convert 
+the dictionary into list and sorted out using sorted method.
+
+main file
+============
+here just import the above two methods to here.
+declared the main function
+in the main function it is taking input of the string.
+do split the string 
+initializing the dictionary and calling frequency_of_words function
+initializing the sort and calling sorting function
+did the loop for soft and print the output.
+   
